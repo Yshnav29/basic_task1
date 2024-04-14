@@ -1,0 +1,145 @@
+* {
+  outline: none;
+  padding: 0;
+  text-decoration: none;
+  margin: 0;
+  list-style: none;
+  font-family: "Poppins";
+}
+
+button {
+  border: none;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/poppins-bold-webfont.woff"), url("fonts/poppins-bold-webfont.woff2");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/poppins-regular-webfont.woff"), url("fonts/poppins-regular-webfont.woff2");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/poppins-semibold-webfont.woff"), url("fonts/poppins-semibold-webfont.woff2");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/poppins-light-webfont.woff"), url("fonts/poppins-light-webfont.woff2");
+}
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #7940ff;
+  height: 4em;
+}
+#navbar div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#navbar div img {
+  width: 2em;
+  margin-right: 1em;
+}
+#navbar div h2 {
+  color: #fff;
+  margin: auto 0;
+  font-size: 1.125rem;
+}
+#navbar ul {
+  display: flex;
+  justify-content: space-between;
+  width: 28em;
+}
+#navbar ul li {
+  color: #fff;
+}
+#navbar a {
+  background-color: #fff;
+  color: #cd0303;
+  width: 6em;
+  height: 2.5em;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  font-weight: 600;
+}
+
+#home {
+  background: url("images/bgimage.jpg") no-repeat;
+  background-position: bottom 3em right 8em;
+  height: 91.5vh;
+}
+#home div.maincontent {
+  position: absolute;
+  left: 12em;
+  top: 8em;
+  width: 40em;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#home div.maincontent h3 {
+  color: #02c948;
+  font-size: 1rem;
+}
+#home div.maincontent h1 {
+  font-size: 3rem;
+  line-height: 3.75rem;
+}
+#home div.maincontent p {
+  color: rgb(143, 143, 143);
+  width: 30em;
+  line-height: 1.25rem;
+}
+#home div.maincontent ul {
+  line-height: 1.25rem;
+}
+#home div.maincontent ul li {
+  font-weight: 600;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+}
+#home div.maincontent ul li img {
+  width: 1.5em;
+  margin-right: 1em;
+}
+#home div.maincontent ul li.firstli {
+  margin-bottom: 0.5em;
+}
+#home div.maincontent div.buttondiv {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 17em;
+}
+#home div.maincontent div.buttondiv button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#home div.maincontent div.buttondiv button.firstbtn {
+  border-radius: 10px;
+  font-weight: 600;
+  width: 8em;
+  height: 3em;
+  background-color: #cd0303;
+  color: #fff;
+}
+#home div.maincontent div.buttondiv button.secondbtn {
+  background-color: #fff;
+  font-weight: 600;
+}
+#home div.maincontent div.buttondiv button.secondbtn img {
+  width: 3em;
+}/*# sourceMappingURL=index.css.map */
